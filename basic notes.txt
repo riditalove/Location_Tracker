@@ -1,0 +1,26 @@
+There are two types of widgets. 
+1. Stateless Widget ( The widgets that don't change its state ) 
+   a. Text
+   b. Images
+   c. Container
+   d. Scaffold Appbar
+2. Stateful Widget ( The widgets that change their states in runtime )
+   a. Radio button
+   b. form
+   c. drop down
+
+------------Widgets----------
+
+1. MaterialApp Widget
+2. Inside the MaterialApp widget, there is scaffold widget
+3. Inside the scaffold widget, there is AppBar widget
+4. Inside the AppBar widget, there is TextSpan and Text
+
+Flutter Folder Structure
+1. lib : Every file will go under the lib folder, Model( database ), View ( UI/UX ), Controller ( logic )--> screen, frontend, backend will go under here
+2. pubspec.yaml :
+
+------main.dart---------
+1. void main() --> main entrance of the code, you will have run from here, everything is present here, but the app is not in the running phase, there is no application running
+2. runApp() --> the whole application will be inside the runApp() function
+3. 
